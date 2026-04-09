@@ -79,7 +79,7 @@ function loadPage(page){
        target="_blank"
        class="social-link">
 
-        <img src="sources/linkedin.png" class="social-icon" alt="LinkedIn">
+        <img src="sources/linkden.png" class="social-icon" alt="LinkedIn">
 
     </a>
     `;
