@@ -76,4 +76,18 @@ function loadPage(page){
         `;
     }
 
+    if(page === "social"){
+    content.innerHTML = `
+    <h2>Social Media</h2>
+
+    <a href="https://www.linkedin.com/in/muhammad-barakat-2b1417307/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bm4hKjcbFSxGwXy6JxA%2Ba%2BQ%3D%3D"
+       target="_blank"
+       class="social-link">
+
+        <img src="sources/linkedin.png" class="social-icon" alt="LinkedIn">
+
+    </a>
+    `;
+}
+
 }
