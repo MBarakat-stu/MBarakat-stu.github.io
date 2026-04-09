@@ -41,12 +41,7 @@ function loadPage(page){
         `;
     }
 
-    if(page === "social"){
-        content.innerHTML = `
-        <h2>Social Media</h2>
-        <p>GitHub, LinkedIn, etc.</p>
-        `;
-    }
+   
 
     if(page === "cvs"){
         content.innerHTML = `
