@@ -43,12 +43,51 @@ function loadPage(page){
 
    
 
-    if(page === "cvs"){
-        content.innerHTML = `
-        <h2>CVs</h2>
-        <p>Download different CV versions.</p>
-        `;
-    }
+   if(page === "cvs"){
+    content.innerHTML = `
+    <h2>My CV</h2>
+
+    <div style="margin-top:20px;">
+        <a href="sources/Muhammad_Hussain_Barakat_CV.pdf" target="_blank">
+            <button style="
+                padding:12px 20px;
+                border:none;
+                border-radius:10px;
+                background:#0077b5;
+                color:white;
+                cursor:pointer;
+                font-size:16px;
+            ">
+                View CV
+            </button>
+        </a>
+
+        <a href="sources/Muhammad_Hussain_Barakat_CV.pdf" download>
+            <button style="
+                padding:12px 20px;
+                border:none;
+                border-radius:10px;
+                background:#333;
+                color:white;
+                cursor:pointer;
+                font-size:16px;
+                margin-left:10px;
+            ">
+                Download CV
+            </button>
+        </a>
+    </div>
+
+    <div style="margin-top:30px;">
+        <iframe 
+            src="sources/Muhammad_Hussain_Barakat_CV.pdf" 
+            width="80%" 
+            height="500px"
+            style="border-radius:10px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
+        </iframe>
+    </div>
+    `;
+}
 
     if(page === "tests"){
         content.innerHTML = `
