@@ -27,12 +27,25 @@ function loadPage(page){
 
     const content = document.querySelector("#content");
 
-    if(page === "educations"){
-        content.innerHTML = `
-        <h2>Educations</h2>
-        <p>Your university or courses.</p>
-        `;
-    }
+  if(page === "educations"){
+    content.innerHTML = `
+    <h2>Education</h2>
+
+    <div class="edu-container">
+
+        <div class="edu-card">
+            <h3>High School Diploma</h3>
+            <img src="sources/High school diploma.jpg" onclick="openImage(this.src)">
+        </div>
+
+        <div class="edu-card">
+            <h3>Computer Science Degree</h3>
+            <img src="sources/cs degree.jpg" onclick="openImage(this.src)">
+        </div>
+
+    </div>
+    `;
+}
 
     if(page === "certificates"){
         content.innerHTML = `
@@ -124,4 +137,28 @@ function loadPage(page){
     `;
 }
 
+}
+
+function openImage(src){
+    const content = document.querySelector("#content");
+
+    content.innerHTML = `
+        <div style="text-align:center;">
+            <button onclick="location.reload()" style="
+                margin-bottom:20px;
+                padding:10px 15px;
+                border:none;
+                border-radius:8px;
+                cursor:pointer;
+            ">
+                Back
+            </button>
+
+            <img src="${src}" style="
+                max-width:90%;
+                border-radius:10px;
+                box-shadow:0 10px 25px rgba(0,0,0,0.3);
+            ">
+        </div>
+    `;
 }
