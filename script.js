@@ -47,9 +47,8 @@ function loadPage(page){
     `;
 }
 
-    if(page === "certificates"){
-        content.innerHTML = `
-        <h2>Certificates</h2>
+
+    
       if(page === "certificates"){
     content.innerHTML = `
     <h2>Certificates</h2>
@@ -73,7 +72,6 @@ function loadPage(page){
 
     </div>
     `;
-
     }
 
    
