@@ -129,16 +129,9 @@ function loadPage(page){
     <div class="edu-container">
 
         <div class="edu-card">
-            <h3>STEP</h3>
+            <h3>STEP & TOEFL</h3>
             <img src="sources/STEP.jpg" onclick="openImage(this.src)">
         </div>
-
-        <div class="edu-card">
-            <h3>TOEFL</h3>
-            <img src="sources/STEP.jpg" onclick="openImage(this.src)">
-        </div>
-
-    </div>
     `;
 }
 
