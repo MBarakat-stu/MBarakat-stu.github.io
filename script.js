@@ -132,6 +132,18 @@ function loadPage(page){
             <h3>STEP & TOEFL</h3>
             <img src="sources/STEP.jpg" onclick="openImage(this.src)">
         </div>
+
+        <div class="edu-card">
+            <h3>التحصيلي</h3>
+            <img src="sources/
+التحصيلي.jpg" onclick="openImage(this.src)">
+        </div>
+
+        <div class="edu-card">
+            <h3>القدرات</h3>
+            <img src="sources/
+القدرات.jpg" onclick="openImage(this.src)">
+        </div>
     `;
 }
 
