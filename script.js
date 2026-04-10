@@ -50,8 +50,30 @@ function loadPage(page){
     if(page === "certificates"){
         content.innerHTML = `
         <h2>Certificates</h2>
-        <p>CS50 Web Programming</p>
-        `;
+      if(page === "certificates"){
+    content.innerHTML = `
+    <h2>Certificates</h2>
+
+    <div class="edu-container">
+
+        <div class="edu-card">
+            <h3>Waterfall Model</h3>
+            <img src="sources/Waterfall model certificate.jpg" onclick="openImage(this.src)">
+        </div>
+
+        <div class="edu-card">
+            <h3>Cisco ITC</h3>
+            <img src="sources/cisco,ITC.jpg" onclick="openImage(this.src)">
+        </div>
+
+        <div class="edu-card">
+            <h3>Flutter & Dart</h3>
+            <img src="sources/flutter&dart.jpg" onclick="openImage(this.src)">
+        </div>
+
+    </div>
+    `;
+
     }
 
    
