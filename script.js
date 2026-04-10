@@ -123,11 +123,24 @@ function loadPage(page){
 }
 
     if(page === "tests"){
-        content.innerHTML = `
-        <h2>Test Scores</h2>
-        <p>IELTS, TOEFL, etc.</p>
-        `;
-    }
+    content.innerHTML = `
+    <h2>Test Scores</h2>
+
+    <div class="edu-container">
+
+        <div class="edu-card">
+            <h3>STEP</h3>
+            <img src="sources/STEP.jpg" onclick="openImage(this.src)">
+        </div>
+
+        <div class="edu-card">
+            <h3>TOEFL</h3>
+            <img src="sources/STEP.jpg" onclick="openImage(this.src)">
+        </div>
+
+    </div>
+    `;
+}
 
     if(page === "experience"){
         content.innerHTML = `
